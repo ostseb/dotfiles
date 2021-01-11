@@ -1,0 +1,13 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Sebastian Österberg
+	email = sebastian.osterberg@gmail.com
+[color]
+	ui = auto
+	branch = true
+[core]
+	pager = diff-so-fancy | less --tabs=4 -RFX

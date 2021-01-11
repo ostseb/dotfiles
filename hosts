@@ -1,0 +1,12 @@
+# dns override
+
+# servers
+193.183.186.204 bethard-dedi2-1
+193.183.186.202 bethard-dedi2-2
+193.183.106.172 bethard-social
+10.12.16.10     curacao-web1
+
+# Added by Docker Desktop
+# To allow the same kube context to work on the host and the container:
+127.0.0.1 kubernetes.docker.internal
+# End of section
